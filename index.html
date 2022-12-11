@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Zadatak- square code</title>
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="container-board">
+            <div class="board">
+                <span>
+                    <h3>Enter your Message</h3>
+                </span>
+                <input type="text" name="text" id="msg" />
+                <button class="encode-btn" id="btn">encode</button>
+                <div id="pText"></div>
+            </div>
+        </div>
+        <div class="result-container">
+            <div class="result-a">
+                <div class="normalized" id="normalText"><b><u>RECTANGLE (Normalized Text)</u></b></div>
+            </div>
+            <div class="result-b">
+                <div class="chunk-encoded" id="chunkText"><b><u>Encoded Message</u></b></div>
+            </div>
+            <div class="result-c">
+                <div class="encoded" id="encodeText"><b><u>RECTANGLE (Encoded Message)</u></b></div>
+            </div>
+        </div>
+
+    </div>
+<script src="main.js"></script>
+
+</body>
+
+</html>
